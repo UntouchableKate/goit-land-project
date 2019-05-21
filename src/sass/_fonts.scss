@@ -1,0 +1,66 @@
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-800 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+         url('../fonts/montserrat-v13-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v13-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Acrom';
+    font-weight: normal;
+	font-style: normal;
+	src: local('Acrom Regular'), local('Acrom-Regular'),
+		url('../fonts/Acrom-Regular.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Acrom';
+    font-weight: bold;
+	font-style: normal;
+	src: local('Acrom Bold'), local('Acrom-Bold'),
+		url('../fonts/Acrom-Bold.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Acrom';
+    font-weight: 100;
+	font-style: normal;
+	src: local('Acrom Thin'), local('Acrom-Thin'),
+		url('../fonts/Acrom-Thin.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Acrom';
+    font-weight: 300;
+	font-style: normal;
+	src: local('Acrom Light'), local('Acrom-Light'),
+		url('../fonts/Acrom-Light.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Acrom';
+    font-weight: 800;
+	font-style: normal;
+	src: local('Acrom ExtraBold'), local('Acrom-ExtraBold'),
+		url('../fonts/Acrom-ExtraBold.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Acrom';
+    font-weight: 500;
+	font-style: normal;
+	src: local('Acrom Medium'), local('Acrom-Medium'),
+		url('../fonts/Acrom-Medium.woff') format('woff'),
+}
