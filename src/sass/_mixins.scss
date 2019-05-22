@@ -1,0 +1,94 @@
+/* -----------------  FOR ALL  ------------------ */
+
+@mixin blue-title {
+    font-family: $acrom;
+    color: #00EAFF;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+@mixin square-tit {
+    font-family: $acrom;
+    color: #222;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+@mixin describe-txt {
+    font-family: $acrom;
+    color: #222;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* --------------- KATYA -------------- */
+
+@mixin form-txt {
+    font-family: $acrom;
+    color: #a2a2a2;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ---------------  BOHDAN  ------------------- */
+/* it-report block */
+
+@mixin review-numbers {
+    font-family: $acrom;
+    font-size: 30px;
+    font-weight: 500;
+    color: #00EAFF;
+}
+
+@mixin review-txt {
+    font-family: $acrom;
+    font-size: 16px;
+    font-weight: normal;
+    color: #222;
+}
+
+@mixin salary-numbers {
+    font-family: $acrom;
+    font-size: 25px;
+    font-weight: 500;
+    color: #00EAFF;
+}
+
+@mixin salary-txt {
+    font-family: $acrom;
+    font-size: 10px;
+    color: #222;
+    font-weight: normal;
+}
+
+/* how start block */
+
+@mixin blue-tit {
+    font-family: $acrom;
+    color: #00EAFF;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/*------------------ Sergei ----------------- */
+/* about company block */
+
+@mixin small-square-tit {
+    font-family: $acrom;
+    font-size: 16px;
+    font-weight: 800;
+    color: #222;
+}
+
+@mixin awards-tit {
+    font-family: $acrom;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+}
+
+@mixin awards-subtit {
+    font-family: $acrom;
+    font-size: 14px;
+    color: #6b6f7a;
+}
