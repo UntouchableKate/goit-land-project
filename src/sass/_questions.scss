@@ -1,0 +1,36 @@
+.questions {
+    width: 83.125%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .mb {
+    margin-bottom: 2.5rem;
+  }
+  
+  .q-title__text {
+    @include square-tit;
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+  }
+  
+  .q-item__text {
+    @include describe-txt;
+    font-size: 0.875rem;
+  }
+  
+  .q-item {
+    position: relative;
+    padding-left: 2.0625rem;
+  }
+  
+  .q-item::before {
+    content: url("../images/arrow.png");
+    position: absolute;
+    left: -0.5%;
+  }
+  
